@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step56", "Step56\Step56.csproj", "{6BE6D707-4767-48DB-BB4F-269E916EA713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step056", "Step56\Step056.csproj", "{6BE6D707-4767-48DB-BB4F-269E916EA713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step38-50", "Step38-50\Step38-50.csproj", "{75BBB4A1-624F-425F-AD9F-E132813DBE3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step072TypesAndCasting", "Step72TypesAndCasting\Step072TypesAndCasting.csproj", "{275B1B17-5573-4B60-BBFC-6F44AA06A109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step72TypesAndCasting", "Step72TypesAndCasting\Step72TypesAndCasting.csproj", "{275B1B17-5573-4B60-BBFC-6F44AA06A109}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step089MathAndConditions", "Step89MathAndConditions\Step089MathAndConditions.csproj", "{C5967B49-027B-49AD-A1DD-690D2F3A4705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step89MathAndConditions", "Step89MathAndConditions\Step89MathAndConditions.csproj", "{C5967B49-027B-49AD-A1DD-690D2F3A4705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step090IncomeComparisoon", "Step90IncomeComparisoon\Step090IncomeComparisoon.csproj", "{059E399C-90D4-4AEA-AA8D-BC43220115CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step90IncomeComparisoon", "Step90IncomeComparisoon\Step90IncomeComparisoon.csproj", "{059E399C-90D4-4AEA-AA8D-BC43220115CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step101InsuranceApproval", "Step101InsuranceApproval\Step101InsuranceApproval.csproj", "{B9DB0F0C-900A-4339-BE2B-F76A38397C60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{6BE6D707-4767-48DB-BB4F-269E916EA713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BE6D707-4767-48DB-BB4F-269E916EA713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BE6D707-4767-48DB-BB4F-269E916EA713}.Release|Any CPU.Build.0 = Release|Any CPU
-		{75BBB4A1-624F-425F-AD9F-E132813DBE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75BBB4A1-624F-425F-AD9F-E132813DBE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{75BBB4A1-624F-425F-AD9F-E132813DBE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{75BBB4A1-624F-425F-AD9F-E132813DBE3F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{275B1B17-5573-4B60-BBFC-6F44AA06A109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{275B1B17-5573-4B60-BBFC-6F44AA06A109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{275B1B17-5573-4B60-BBFC-6F44AA06A109}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{059E399C-90D4-4AEA-AA8D-BC43220115CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059E399C-90D4-4AEA-AA8D-BC43220115CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059E399C-90D4-4AEA-AA8D-BC43220115CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DB0F0C-900A-4339-BE2B-F76A38397C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DB0F0C-900A-4339-BE2B-F76A38397C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DB0F0C-900A-4339-BE2B-F76A38397C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DB0F0C-900A-4339-BE2B-F76A38397C60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
