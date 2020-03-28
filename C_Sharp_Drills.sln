@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step123ShippingQuote", "Ste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step126WhileAndDoWhile", "Step126WhileAndDoWhile\Step126WhileAndDoWhile.csproj", "{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step131Strings", "Step131Strings\Step131Strings.csproj", "{0CCAEE61-E965-4254-A67B-2C5BB72188B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCAEE61-E965-4254-A67B-2C5BB72188B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCAEE61-E965-4254-A67B-2C5BB72188B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCAEE61-E965-4254-A67B-2C5BB72188B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCAEE61-E965-4254-A67B-2C5BB72188B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
