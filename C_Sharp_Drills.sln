@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step101InsuranceApproval", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step123ShippingQuote", "Step123ShippingQuote\Step123ShippingQuote.csproj", "{05F92AC5-A29C-4F36-AF38-4795C60C32CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step126WhileAndDoWhile", "Step126WhileAndDoWhile\Step126WhileAndDoWhile.csproj", "{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{05F92AC5-A29C-4F36-AF38-4795C60C32CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05F92AC5-A29C-4F36-AF38-4795C60C32CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05F92AC5-A29C-4F36-AF38-4795C60C32CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C200A50E-F739-4185-BFA3-F3D3CC7D3CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
