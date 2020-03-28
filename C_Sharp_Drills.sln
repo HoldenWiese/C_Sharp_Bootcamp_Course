@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step090IncomeComparisoon", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step101InsuranceApproval", "Step101InsuranceApproval\Step101InsuranceApproval.csproj", "{B9DB0F0C-900A-4339-BE2B-F76A38397C60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step123ShippingQuote", "Step123ShippingQuote\Step123ShippingQuote.csproj", "{05F92AC5-A29C-4F36-AF38-4795C60C32CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B9DB0F0C-900A-4339-BE2B-F76A38397C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9DB0F0C-900A-4339-BE2B-F76A38397C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9DB0F0C-900A-4339-BE2B-F76A38397C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F92AC5-A29C-4F36-AF38-4795C60C32CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F92AC5-A29C-4F36-AF38-4795C60C32CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F92AC5-A29C-4F36-AF38-4795C60C32CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F92AC5-A29C-4F36-AF38-4795C60C32CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
