@@ -17,7 +17,7 @@ namespace Step131Strings
             //Concatenating string literals
             Console.WriteLine("\nConcatenation is " + "so much fun" + "!");
 
-            //Coverting a string to uppercase
+            //Converting a string to uppercase
             Console.WriteLine("\n" + concatenate1.ToUpper());
 
             //Using a string builder to build a paragraph. I think this is what the assignment is asking for?
