@@ -48,11 +48,19 @@ namespace Step136ArraysAndLists
             Console.WriteLine($"The value of the element at that index is {secondResponse}.");
 
             //Requirement 4
-            List<string> myList = new List<string>();
-            myList.Add("Hello");
-            myList.Add("there.");
-            myList.Add("My name");
-            myList.Add("is Holden!");
+            //List<string> myList = new List<string>();
+            //myList.Add("Hello");
+            //myList.Add("there.");
+            //myList.Add("My name");
+            //myList.Add("is Holden!");
+
+            List<string> myList = new List<string>()
+            {
+                "Hello",
+                "there.",
+                "My name",
+                "is Holden!"
+            };
 
             Console.WriteLine("Please select a number between -1 and 4. If you mess up the program will die!");
             int response3 = Convert.ToInt32(Console.ReadLine());

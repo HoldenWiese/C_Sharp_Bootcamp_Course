@@ -16,9 +16,12 @@ namespace Step142ListsAndLoops
             Console.WriteLine("Drill 1\n");
 
             string[] myStrings1 = { "Hello, ", "Hiya, ", "Good morning, ", "What's up, " };
+            Console.WriteLine("Enter some text to add to a greeting.");
+            string userInputString = Console.ReadLine();
             for (int i = 0; i < myStrings1.Length; i++)
             {
-                myStrings1[i] = myStrings1[i] + "it's good to see you!";
+               
+                myStrings1[i] = myStrings1[i] + userInputString;
                 Console.WriteLine(myStrings1[i]);
             }
 
