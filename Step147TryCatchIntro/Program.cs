@@ -58,6 +58,10 @@ namespace Step147TryCatchIntro
             {
                 Console.WriteLine(ex.Message);
             }
+            finally
+            {
+                Console.WriteLine("This code comes from using a finally statemnet.");
+            }
 
             Console.WriteLine("\nThe program has emerged from the try/catch blocks!");
         }
