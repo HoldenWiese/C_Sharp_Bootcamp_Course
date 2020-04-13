@@ -7,6 +7,7 @@ namespace Step159MethodOverloading
         static void Main(string[] args)
         {
             Console.WriteLine("Step 159 | Demonstrating method overloading.\n");
+            
             Console.WriteLine("Write any int number to increase by 5.");
             int userSays = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(MethOverload.MathFun(userSays));

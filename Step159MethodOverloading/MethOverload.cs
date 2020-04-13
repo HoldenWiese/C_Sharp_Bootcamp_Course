@@ -31,7 +31,6 @@ namespace Step159MethodOverloading
                     string userInput = Console.ReadLine();
                     result = Convert.ToInt32(userInput) * 2;
                     tryAgain = false;
-                    return result;
                 }
                 catch (Exception)
                 {
