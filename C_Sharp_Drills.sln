@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step160OptionalMethodParame
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step161MoreMethods", "Step161MoreMethods\Step161MoreMethods.csproj", "{D8DE473D-D547-4E92-A8CC-7F8C15EEF579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step164OutputParamsAndMore", "Step164OutputParamsAndMore\Step164OutputParamsAndMore.csproj", "{FE5C6535-3E9B-4B80-95EB-EF1BCD879340}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{D8DE473D-D547-4E92-A8CC-7F8C15EEF579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DE473D-D547-4E92-A8CC-7F8C15EEF579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DE473D-D547-4E92-A8CC-7F8C15EEF579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5C6535-3E9B-4B80-95EB-EF1BCD879340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5C6535-3E9B-4B80-95EB-EF1BCD879340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5C6535-3E9B-4B80-95EB-EF1BCD879340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5C6535-3E9B-4B80-95EB-EF1BCD879340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
