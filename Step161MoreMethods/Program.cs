@@ -19,7 +19,7 @@ namespace Step161MoreMethods
 
             Fun.WeirdMethod(1, 2);
 
-            Fun.WeirdMethod(myNum1, myNum2);
+            Fun.WeirdMethod(num1: myNum1, num2: myNum2);
 
             Console.Read();
         }
