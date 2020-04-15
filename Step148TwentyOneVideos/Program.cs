@@ -7,15 +7,20 @@ namespace Step148TwentyOneVideos
     {
         static void Main()
         {
-            Deck deck = new Deck();
-            deck.Shuffle();
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
+            game.ListPlayers();
+            Console.ReadLine();
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
+            //Deck deck = new Deck();
+            //deck.Shuffle();
 
-            Console.WriteLine(deck.Cards.Count);
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+
+            //Console.WriteLine(deck.Cards.Count);
         }
     }
 }
