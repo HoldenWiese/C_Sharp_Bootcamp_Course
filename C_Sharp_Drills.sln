@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Step148TwentyOneVideos", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Step155Classes", "Step155Classes\Step155Classes.csproj", "{E345FD02-737A-478C-9C80-6A20CCBCA054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step159MethodOverloading", "Step159MethodOverloading\Step159MethodOverloading.csproj", "{5D896A6A-EF24-4064-96BC-120118BE3C47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Step159MethodOverloading", "Step159MethodOverloading\Step159MethodOverloading.csproj", "{5D896A6A-EF24-4064-96BC-120118BE3C47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step160OptionalMethodParameter", "Step160OptionalMethodParameter\Step160OptionalMethodParameter.csproj", "{7D286B19-B70B-4CA3-A3A5-11E10C564A48}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step176AbstractClass", "Step176AbstractClass\Step176AbstractClass.csproj", "{DC152235-71F1-46F8-8E15-E7E21C8770AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step179InterfaceAndPolymorphism", "Step179InterfaceAndPolymorphism\Step179InterfaceAndPolymorphism.csproj", "{87953F2F-AA0A-4616-93B3-EF70B56E8A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step184OverloadingOperator", "Step184OverloadingOperator\Step184OverloadingOperator.csproj", "{93B317F0-C599-42CB-B8E4-49F2BFF47332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{87953F2F-AA0A-4616-93B3-EF70B56E8A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87953F2F-AA0A-4616-93B3-EF70B56E8A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87953F2F-AA0A-4616-93B3-EF70B56E8A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B317F0-C599-42CB-B8E4-49F2BFF47332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B317F0-C599-42CB-B8E4-49F2BFF47332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B317F0-C599-42CB-B8E4-49F2BFF47332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B317F0-C599-42CB-B8E4-49F2BFF47332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
