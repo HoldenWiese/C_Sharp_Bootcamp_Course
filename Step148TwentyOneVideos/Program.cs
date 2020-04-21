@@ -7,12 +7,6 @@ namespace Step148TwentyOneVideos
     {
         static void Main()
         {
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Holden";
-            game += player;
-            game -= player;
             Deck deck = new Deck();
             deck.Shuffle();
 
