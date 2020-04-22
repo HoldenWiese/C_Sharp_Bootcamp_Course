@@ -10,13 +10,44 @@ namespace Step192Enums
     {
         static void Main(string[] args)
         {
-            myEnums Today = new myEnums();
+            bool userAttempt = true;
+            while (userAttempt)
+            {
+                try
+                {
+                    Console.WriteLine("What day is it today?");
+                    string userInput = Console.ReadLine();
+                    Enum.TryParse(userInput, out DaysOfTheWeek userDay);
+                    if (userInput == userDay.ToString())
+                    {
+                        userAttempt = false;
+                        Console.WriteLine($"According to you the day is {userDay}.");
+                    }
+                    else
+                    {
+                        throw new System.ArgumentException();
+                    }
 
-            Console.WriteLine("What day is it today?");
-            string userInput = Console.ReadLine();
-            Today.day = Enum.TryParse(userInput, out );
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Please try again. Enter Monday, Tuesday, Wednesday," +
+                                      "Thursday, Friday, Saturday, or Sunday.");
+                }
+
+            }
 
             Console.Read();
+        }
+        public enum DaysOfTheWeek
+        {
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
         }
     }
 }

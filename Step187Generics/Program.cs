@@ -10,9 +10,13 @@ namespace Step187Generics
     {
         static void Main(string[] args)
         {
-            Employee<string> Holden = new Employee<string>(fName: "Holden", lName: "Wiese", id: 123);
-            Holden.things = new List<string>() { "Headphones", "Shoes", "Hats" };
+            //One way of instantiating Employee object.
+            Employee<string> Holden = new Employee<string>(fName: "Holden", lName: "Wiese", id: 123)
+            {
+                things = new List<string>() { "Headphones", "Shoes", "Hats" }
+            }; 
 
+            //Another way of instantiating employee object.
             Employee<int> Jen = new Employee<int>("Jen", "Hardin", 111);
             Jen.things = new List<int>() { 50, 700, 9 };
 

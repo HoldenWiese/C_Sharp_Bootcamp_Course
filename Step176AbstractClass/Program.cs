@@ -10,7 +10,7 @@ namespace Step176AbstractClass
     {
         static void Main(string[] args)
         {
-            Employee Bob = new Employee() { firstName = "Bob", lastName = "Johnson" };
+            Employee Bob = new Employee() { firstName = "Sample", lastName = "Student" };
             Bob.SayName();
 
             Console.Read();
