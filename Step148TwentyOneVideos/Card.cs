@@ -4,12 +4,8 @@ using System.Text;
 
 namespace Step148TwentyOneVideos
 {
-    public class Card
+    public struct Card
     {
-        public Card()
-        {
-
-        }
         public Suit Suit { get; set; }
         public Face Face { get; set; }
     }

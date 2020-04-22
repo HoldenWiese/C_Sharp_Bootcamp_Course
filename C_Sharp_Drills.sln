@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step187Generics", "Step187G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step192Enums", "Step192Enums\Step192Enums.csproj", "{AA6734E9-7996-4E90-9414-1E22BBDC4ADD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step197Structs", "Step197Structs\Step197Structs.csproj", "{0313E353-744C-41F4-BFD2-AA310E928189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{AA6734E9-7996-4E90-9414-1E22BBDC4ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA6734E9-7996-4E90-9414-1E22BBDC4ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA6734E9-7996-4E90-9414-1E22BBDC4ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0313E353-744C-41F4-BFD2-AA310E928189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0313E353-744C-41F4-BFD2-AA310E928189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0313E353-744C-41F4-BFD2-AA310E928189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0313E353-744C-41F4-BFD2-AA310E928189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
