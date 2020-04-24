@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step192Enums", "Step192Enum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step197Structs", "Step197Structs\Step197Structs.csproj", "{0313E353-744C-41F4-BFD2-AA310E928189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step202LambdaFunctions", "Step202LambdaFunctions\Step202LambdaFunctions.csproj", "{F23E8285-5968-4996-945F-37099BA2541E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{0313E353-744C-41F4-BFD2-AA310E928189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0313E353-744C-41F4-BFD2-AA310E928189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0313E353-744C-41F4-BFD2-AA310E928189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23E8285-5968-4996-945F-37099BA2541E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23E8285-5968-4996-945F-37099BA2541E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23E8285-5968-4996-945F-37099BA2541E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23E8285-5968-4996-945F-37099BA2541E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
