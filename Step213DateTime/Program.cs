@@ -12,7 +12,7 @@ namespace Step213DateTime
         {
             Console.WriteLine(DateTime.Now);
 
-            Console.WriteLine("Write a number to see how many hours away from now is.");
+            Console.WriteLine("Write a number to see the time in that many hours.");
             int userInput = Convert.ToInt32(Console.ReadLine());
 
             DateTime futureDate = DateTime.Now.AddHours(userInput);
