@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Step225ExceptionHandling
 {
     class Program
@@ -13,19 +14,22 @@ namespace Step225ExceptionHandling
             bool validInput = false;
             while (!validInput)
             {
-                Console.WriteLine("What year were you born?");
+                Console.WriteLine("How old are you?");
                 try
                 {
-                    int birthYear = Convert.ToInt32(Console.ReadLine());
-                    if (birthYear < 1)
+                    int age = Convert.ToInt32(Console.ReadLine());
+                    if (age < 1)
                     {
-                        throw new TooOldException("You are too old to be alive.");
+                        throw new TooYoungException("You are too young to use a computer.");
                         //This message only shows if error is not caught.
                     }
                     validInput = true;
-                    Console.WriteLine($"You were born in {birthYear}");
+                    DateTime myDateTime = new DateTime();
+                    myDateTime = DateTime.Now;
+                    int year = myDateTime.Year;
+                    Console.WriteLine($"Depending on your birthday, you were born in {year-age} or {year-age-1}.");
                 }
-                catch (TooOldException)
+                catch (TooYoungException)
                 {
                     Console.WriteLine("Hmm.. I don't believe you. Try again.");
                 }
@@ -34,15 +38,14 @@ namespace Step225ExceptionHandling
                     Console.WriteLine("Only type digits please. No decimals or letters.");
                 } 
             }
-
             Console.Read();
         }
     }
-    public class TooOldException : Exception
+    public class TooYoungException : Exception
     {
-        public TooOldException()
+        public TooYoungException()
             : base() { }
-        public TooOldException(string message)
+        public TooYoungException(string message)
             : base(message) { }
     }
 }
